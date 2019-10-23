@@ -1,13 +1,15 @@
+/*created by keerthana
+default and static methods*/
 package Default;
 interface Maths
 {
-    void add();
+    void add();/*abstract method*/
 
-    default void sub()
+    default void sub()/*default methods are used to implement the method*/
     {
         System.out.println("perform subraction");
     }
-    static void mul()
+    static void mul()/*static methods*/
 {
     System.out.println("perform multiplication");
 }
