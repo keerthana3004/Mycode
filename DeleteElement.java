@@ -1,3 +1,5 @@
+/*created by keerthana
+to delete an element in a array*/
 package Delete;
     import java.util.Scanner;
 
@@ -22,13 +24,13 @@ package Delete;
             del = scan.nextInt();
             for(int i=0; i<size; i++)
             {
-                if(arr[i] == del)
+                if(arr[i] == del)/*if the element of arr[i] value is equal to delete element it will continues the loop or else it will come out of the inner loop and increment the arr[i] value /
                 {
                     for(int j=i; j<(size-1); j++)
-                    {
-                        arr[j] = arr[j+1];
+                    
+                        arr[j] = arr[j+1];/*arr[j+1] value is stored in arr[j]th position*/
                     }
-                    count++;
+                    count++;/*increment the count value*/
                     break;
                 }
             }
