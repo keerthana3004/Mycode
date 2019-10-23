@@ -5,7 +5,7 @@ interface Maths
 {
     void add();/*abstract methods*/
 
-    default void sub()/*by using default methods implementing the methods*/
+    default void sub()/*by using default methods implementing the methods in interface*/
     {
         System.out.println("perform subraction");
     }
